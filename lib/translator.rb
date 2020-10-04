@@ -40,7 +40,7 @@ def get_english_meaning(path, emote)
   
   library.each do |key, value|
     if library[key][:japanese] == emote
-    return [key]
+    return key
     end 
   end 
   
